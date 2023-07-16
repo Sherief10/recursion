@@ -1,4 +1,4 @@
-/* function fibsRec(n) {
+function fibsRec(n) {
   if (n <= 0) {
     return [];
   } else if (n === 1) {
@@ -12,11 +12,11 @@
     );
     return sequence;
   }
-} */
+}
 
-function fibsRec(num) {
+/* function fibsRec(num) {
   if (num < 2) return num;
   else return fibsRec(num - 1) + fibsRec(num - 2);
 }
-
+ */
 console.log(fibsRec(8));
